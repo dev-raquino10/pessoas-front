@@ -1,21 +1,21 @@
 <div class="container mt-5">
     <h2>Lista de Pessoas</h2>
-    <table class="table table-striped">
+    <table class="table table-dark">
       <thead>
-        <tr>
+        <tr class="text-center">
           <th>Nome</th>
           <th>Grupo</th>
           <th>Privilégio</th>
-          <th>Tipo de publicador</th>
+          <th>Privilégio adicional</th>
           <th>Ações</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let pessoa of pessoas">
-          <td>{{ pessoa.nome }}</td>
-          <td>{{ pessoa.grupo }}</td>
-          <td>{{ pessoa.privilegio }}</td>
-          <td>{{ pessoa.tipoPublicador }}</td>
+          <td class="text-center">{{ pessoa.nome }}</td>
+          <td class="text-center">{{ pessoa.grupo }}</td>
+          <td class="text-center">{{ pessoa.tipoPublicador }}</td>
+          <td class="text-center">{{ pessoa.privilegio }}</td>
          <a (click)="abrirDetalhes(pessoa.id)">Ver detalhes</a>
         </tr>
       </tbody>

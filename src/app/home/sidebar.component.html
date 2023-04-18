@@ -1,14 +1,19 @@
-<div class="sidebar" [ngClass]="{'collapsed': collapsed}">
-    <ul class="nav flex-column">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pessoas</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <a class="navbar-brand" href="#">Meu Site</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Grupos</a>
+        <a class="nav-link" href="#">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contato</a>
       </li>
     </ul>
   </div>
-  <button title="button" class="sidebar-toggle" (click)="toggle()">
-    <i class="fa fa-bars"></i>
-  </button>
-  
+</nav>

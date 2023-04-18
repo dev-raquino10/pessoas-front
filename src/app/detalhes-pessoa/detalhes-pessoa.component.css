@@ -1,0 +1,42 @@
+.person-details {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.person-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.person-details th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.person-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.person-details tr:hover {
+    background-color: #ddd;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    color: #007bff;
+}

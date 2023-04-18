@@ -1,10 +1,10 @@
-.sidebar {
+.nav {
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   width: 200px;
-  background-color: #fff;
+  background-color: #312c2c;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }

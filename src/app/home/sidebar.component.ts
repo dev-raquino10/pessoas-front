@@ -14,4 +14,8 @@ export class SidebarComponent {
   toggle() {
     this.collapsed = !this.collapsed;
   }
+
+  toggleSidebar() {
+    this.sidebarService.toggle();
+  }
 }
