@@ -1,0 +1,24 @@
+<div class="container mt-5">
+    <h2>Lista de Pessoas</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Grupo</th>
+          <th>Privilégio</th>
+          <th>Tipo de publicador</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pessoa of pessoas">
+          <td>{{ pessoa.nome }}</td>
+          <td>{{ pessoa.grupo }}</td>
+          <td>{{ pessoa.privilegio }}</td>
+          <td>{{ pessoa.tipoPublicador }}</td>
+         <a (click)="abrirDetalhes(pessoa.id)">Ver detalhes</a>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
